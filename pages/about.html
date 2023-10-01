@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/nav.css" />
+    <link rel="stylesheet" href="../styles/pages/photos.css" />
+
+    <script type="text/javascript" src="../scripts/nav.js" defer></script>
+    <script type="text/javascript" src="../scripts/pages/photos.js" defer></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/cdcc65decb.js" crossorigin="anonymous"></script>
+
+    <title>Makerinchief Site</title>
+  </head>
+
+  <body>
+    <nav id="navbar" class="navbar">
+      <div id="nav-ham">
+        <button onclick="showMenu()">
+          <i class="fa-solid fa-bars fa-3x"></i>
+        </button>
+      </div>
+      <ul id="nav-menu">
+        <li>
+          <a href="/"> Home </a>
+        </li>
+        <li>
+          <a href="./kits.html"> Kits </a>
+        </li>
+        <li>
+          <a href="./resources.html"> Resources </a>
+        </li>
+        <li>
+          <a href="#"> About </a>
+        </li>
+        <li>
+          <a href="./contact.html"> Contact </a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="page-content">
+      <div class="page-header">
+        <h1>About</h1>
+        <h2>
+          Makerinchief offers kits and resources to explore engineering robotics, programming, and
+          much much more.
+        </h2>
+      </div>
+
+      <div id="photos-container" class="photos-container"></div>
+    </section>
+  </body>
+</html>

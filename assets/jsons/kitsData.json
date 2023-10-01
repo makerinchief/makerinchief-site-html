@@ -1,0 +1,572 @@
+{
+  "makerinchief": [
+    {
+      "date": {
+        "start_month": "",
+        "start_year": "",
+        "end_month": "",
+        "end_year": ""
+      },
+      "_id": "6493a5dd2a653801967ddf5e",
+      "folder_id": "6493a4cc2a653801967ddf37",
+      "folder_name": "makerinchief",
+      "slug": "tank-bot",
+      "name": "Tank Bot",
+      "url": "",
+      "client": "",
+      "client_url": "",
+      "short": "Four wheeled drive bot.",
+      "info": "The Tank Bot uses an Arduino Nano to control the 4 wheels via an L298N motor driver.  Parts are easy to come by and quick to setup.  3D printed connectors and wooden dowels make a strong structure.  Parts are 3D printed using recycled PLA and laser cut from cardboard and wooden dowels.",
+      "photos": [
+        {
+          "slug": "tank-bot-photo-1",
+          "url": "https://iili.io/iAAp5B.jpg",
+          "_id": "6493a67c2a653801967ddfeb"
+        },
+        {
+          "slug": "tank-bot-photo-2",
+          "url": "https://iili.io/iAAmJV.jpg",
+          "_id": "6493a67c2a653801967ddfec"
+        },
+        {
+          "slug": "tank-bot-photo-3",
+          "url": "https://iili.io/iAAZfj.jpg",
+          "_id": "6493a67c2a653801967ddfed"
+        },
+        {
+          "slug": "tank-bot-photo-4",
+          "url": "https://iili.io/iAADUQ.jpg",
+          "_id": "6493a67c2a653801967ddfee"
+        },
+        {
+          "slug": "tank-bot-photo-5",
+          "url": "https://iili.io/iAALib.jpg",
+          "_id": "6493a67c2a653801967ddfef"
+        },
+        {
+          "slug": "tank-bot-photo-6",
+          "url": "https://iili.io/iAAt0x.jpg",
+          "_id": "6493a67c2a653801967ddff0"
+        }
+      ],
+      "tech": [
+        {
+          "key": "arduino",
+          "name": "Arduino",
+          "url": "https://www.arduino.cc/",
+          "_id": "6493a67c2a653801967ddff1"
+        },
+        {
+          "key": "raspberry-pi",
+          "name": "Raspberry Pi",
+          "url": "https://www.raspberrypi.org/",
+          "_id": "6493a67c2a653801967ddff2"
+        },
+        {
+          "key": "3d-printing",
+          "name": "3D Printing",
+          "url": "https://en.wikipedia.org/wiki/3D_printing",
+          "_id": "6493a67c2a653801967ddff3"
+        },
+        {
+          "key": "laser-cutting",
+          "name": "Laser Cutting",
+          "url": "https://en.wikipedia.org/wiki/Laser_cutting",
+          "_id": "6493a67c2a653801967ddff4"
+        },
+        {
+          "key": "l298d",
+          "name": "L298D",
+          "url": "",
+          "_id": "6493a67c2a653801967ddff5"
+        }
+      ],
+      "repos": [
+        {
+          "key": "github",
+          "name": "Github",
+          "url": "https://github.com/intern-jck/Tank-Bot",
+          "_id": "6493a67c2a653801967ddff6"
+        },
+        {
+          "key": "youtube",
+          "name": "YouTube",
+          "url": "https://www.youtube.com/watch?v=hO762uOHBdM",
+          "_id": "6493a67c2a653801967ddff7"
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "date": {
+        "start_month": "",
+        "start_year": "",
+        "end_month": "",
+        "end_year": ""
+      },
+      "_id": "6493a67d2a653801967de014",
+      "folder_id": "6493a4cc2a653801967ddf37",
+      "folder_name": "makerinchief",
+      "slug": "controller-bot",
+      "name": "Controller Bot",
+      "url": "",
+      "client": "",
+      "client_url": "",
+      "short": "Two joystick controller",
+      "info": "The Controller Bot uses two joystick modules to control your bot using an NRF24L01 radio module.  An 16x2 LCD screen displays any data you want.  Parts are 3D printed using recycled PLA and laser cut from cardboard and wooden dowels.",
+      "photos": [
+        {
+          "slug": "controller-bot-photo-1",
+          "url": "https://iili.io/iARFqJ.jpg",
+          "_id": "6493a70c2a653801967de0df"
+        },
+        {
+          "slug": "controller-bot-photo-2",
+          "url": "https://iili.io/iARK0v.jpg",
+          "_id": "6493a70c2a653801967de0e0"
+        },
+        {
+          "slug": "controller-bot-photo-3",
+          "url": "https://iili.io/iAR2sa.jpg",
+          "_id": "6493a70c2a653801967de0e1"
+        },
+        {
+          "slug": "controller-bot-photo-4",
+          "url": "https://iili.io/iARdWg.jpg",
+          "_id": "6493a70c2a653801967de0e2"
+        },
+        {
+          "slug": "controller-bot-photo-5",
+          "url": "https://iili.io/iARBJp.jpg",
+          "_id": "6493a70c2a653801967de0e3"
+        },
+        {
+          "slug": "controller-bot-photo-6",
+          "url": "https://iili.io/iARC5N.jpg",
+          "_id": "6493a70c2a653801967de0e4"
+        }
+      ],
+      "tech": [
+        {
+          "key": "arduino",
+          "name": "Arduino",
+          "url": "https://www.arduino.cc/",
+          "_id": "6493a70c2a653801967de0e5"
+        },
+        {
+          "key": "nrf24l01",
+          "name": "NRF24L01",
+          "url": "http://wiki.sunfounder.cc/index.php?title=NRF24L01_Wireless_Transceiver_Module",
+          "_id": "6493a70c2a653801967de0e6"
+        },
+        {
+          "key": "3d-printing",
+          "name": "3D Printing",
+          "url": "https://en.wikipedia.org/wiki/3D_printing",
+          "_id": "6493a70c2a653801967de0e7"
+        },
+        {
+          "key": "laser-cutting",
+          "name": "Laser Cutting",
+          "url": "https://en.wikipedia.org/wiki/Laser_cutting",
+          "_id": "6493a70c2a653801967de0e8"
+        },
+        {
+          "key": "lcd",
+          "name": "LCD",
+          "url": "http://wiki.sunfounder.cc/index.php?title=LCD1602_Module",
+          "_id": "6493a70c2a653801967de0e9"
+        }
+      ],
+      "repos": [
+        {
+          "key": "github",
+          "name": "Github",
+          "url": "#",
+          "_id": "6493a70c2a653801967de0ea"
+        },
+        {
+          "key": "youtube",
+          "name": "YouTube",
+          "url": "#",
+          "_id": "6493a70c2a653801967de0eb"
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "date": {
+        "start_month": "",
+        "start_year": "",
+        "end_month": "",
+        "end_year": ""
+      },
+      "_id": "64a3166d9bbc5b8c65481e5b",
+      "folder_id": "6493a4cc2a653801967ddf37",
+      "folder_name": "makerinchief",
+      "slug": "led-lantern",
+      "name": "Led Lantern",
+      "url": "",
+      "client": "",
+      "client_url": "",
+      "short": "WS2812B RGB LED Lantern",
+      "info": "The LED Lantern is laser cut from birch plywood and uses WS2812b LEDs to allow a wide range of colors.  Printer paper is used as a simple diffuser which also allows printing images on each side allowing for awesome visual effects!\"",
+      "photos": [
+        {
+          "slug": "led-lantern-photo-7",
+          "url": "https://iili.io/iARQIt.png",
+          "_id": "64a317959bbc5b8c6548206c"
+        },
+        {
+          "slug": "led-lantern-photo-2",
+          "url": "https://iili.io/iARspI.png",
+          "_id": "64a317959bbc5b8c6548206d"
+        },
+        {
+          "slug": "led-lantern-photo-3",
+          "url": "https://iili.io/iARikN.png",
+          "_id": "64a317959bbc5b8c6548206e"
+        },
+        {
+          "slug": "led-lantern-photo-4",
+          "url": "https://iili.io/iARgEJ.png",
+          "_id": "64a317959bbc5b8c6548206f"
+        },
+        {
+          "slug": "led-lantern-photo-5",
+          "url": "https://iili.io/iARrrv.png",
+          "_id": "64a317959bbc5b8c65482070"
+        },
+        {
+          "slug": "led-lantern-photo-6",
+          "url": "https://iili.io/iARP7p.png",
+          "_id": "64a317959bbc5b8c65482071"
+        },
+        {
+          "slug": "led-lantern-photo-7",
+          "url": "https://iili.io/iAR62R.png",
+          "_id": "64a317959bbc5b8c65482072"
+        }
+      ],
+      "tech": [
+        {
+          "key": "arduino",
+          "name": "Arduino",
+          "url": "https://www.arduino.cc/",
+          "_id": "64a317959bbc5b8c65482073"
+        },
+        {
+          "key": "nrf24l01",
+          "name": "NRF24L01",
+          "url": "http://wiki.sunfounder.cc/index.php?title=NRF24L01_Wireless_Transceiver_Module",
+          "_id": "64a317959bbc5b8c65482074"
+        },
+        {
+          "key": "ws2812b",
+          "name": "WS2812B",
+          "url": "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf",
+          "_id": "64a317959bbc5b8c65482075"
+        },
+        {
+          "key": "laser-cutting",
+          "name": "Laser Cutting",
+          "url": "https://en.wikipedia.org/wiki/Laser_cutting",
+          "_id": "64a317959bbc5b8c65482076"
+        }
+      ],
+      "repos": [
+        {
+          "key": "youtube",
+          "name": "YouTube",
+          "url": "",
+          "_id": "64a317959bbc5b8c65482077"
+        },
+        {
+          "key": "github",
+          "name": "GitHub",
+          "url": "",
+          "_id": "64a317959bbc5b8c65482078"
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "date": {
+        "start_month": "",
+        "start_year": "",
+        "end_month": "",
+        "end_year": ""
+      },
+      "_id": "64a317999bbc5b8c654820d4",
+      "folder_id": "6493a4cc2a653801967ddf37",
+      "folder_name": "makerinchief",
+      "slug": "doggo-bot",
+      "name": "Doggo Bot",
+      "url": "",
+      "client": "",
+      "client_url": "",
+      "short": "4 legged walking bot",
+      "info": "The Doggo Bot uses a simple leg mechanism and 4 servos controlled by an Arduino Nano to allow the bot to walk forward and backwards.  There is plenty of room to attach sensors and devices to let the bot detect objects and even be remote controlled!ssssssssssssssssssssssssssss",
+      "photos": [
+        {
+          "slug": "doggo-bot-photo-1",
+          "url": "https://iili.io/iAR5g4.jpg",
+          "_id": "64a318119bbc5b8c654822a1"
+        },
+        {
+          "slug": "doggo-bot-photo-2",
+          "url": "https://iili.io/iARR1f.jpg",
+          "_id": "64a318119bbc5b8c654822a2"
+        },
+        {
+          "slug": "doggo-bot-photo-3",
+          "url": "https://iili.io/iARAqG.jpg",
+          "_id": "64a318119bbc5b8c654822a3"
+        },
+        {
+          "slug": "doggo-bot-photo-4",
+          "url": "https://iili.io/iARTss.jpg",
+          "_id": "64a318119bbc5b8c654822a4"
+        },
+        {
+          "slug": "doggo-bot-photo-5",
+          "url": "https://iili.io/iARIXn.jpg",
+          "_id": "64a318119bbc5b8c654822a5"
+        },
+        {
+          "slug": "doggo-bot-photo-6",
+          "url": "https://iili.io/iARzzX.jpg",
+          "_id": "64a318119bbc5b8c654822a6"
+        }
+      ],
+      "tech": [
+        {
+          "key": "arduino",
+          "name": "Arduino",
+          "url": "https://www.arduino.cc/",
+          "_id": "64a318119bbc5b8c654822a7"
+        },
+        {
+          "key": "servo-motors",
+          "name": "Servo Motors",
+          "url": "https://en.wikipedia.org/wiki/Servomotor",
+          "_id": "64a318119bbc5b8c654822a8"
+        },
+        {
+          "key": "3d-printing",
+          "name": "3D Printing",
+          "url": "https://en.wikipedia.org/wiki/3D_printing",
+          "_id": "64a318119bbc5b8c654822a9"
+        },
+        {
+          "key": "laser-cutting",
+          "name": "Laser Cutting",
+          "url": "https://en.wikipedia.org/wiki/Laser_cutting",
+          "_id": "64a318119bbc5b8c654822aa"
+        }
+      ],
+      "repos": [
+        {
+          "key": "youtube",
+          "name": "YouTube",
+          "url": "",
+          "_id": "64a318119bbc5b8c654822ab"
+        },
+        {
+          "key": "github",
+          "name": "GitHub",
+          "url": "",
+          "_id": "64a318119bbc5b8c654822ac"
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "date": {
+        "start_month": "",
+        "start_year": "",
+        "end_month": "",
+        "end_year": ""
+      },
+      "_id": "64a318149bbc5b8c654822e4",
+      "folder_id": "6493a4cc2a653801967ddf37",
+      "folder_name": "makerinchief",
+      "slug": "arm-bot",
+      "name": "Arm Bot",
+      "url": "",
+      "client": "",
+      "client_url": "",
+      "short": "Servo powered robot arm",
+      "info": "Arm Bot uses a combination of servos and 3D printed parts to allow the arm to grip small objects and perform simple movements.  The bot is simple to control and uses three potentiometers to control base, elbow and gripper.",
+      "photos": [
+        {
+          "slug": "arm-bot-photo-1",
+          "url": "https://iili.io/iARVqb.jpg",
+          "_id": "64a318869bbc5b8c6548252d"
+        },
+        {
+          "slug": "arm-bot-photo-2",
+          "url": "https://iili.io/iARGLu.jpg",
+          "_id": "64a318869bbc5b8c6548252e"
+        },
+        {
+          "slug": "arm-bot-photo-3",
+          "url": "https://iili.io/iARlm7.jpg",
+          "_id": "64a318869bbc5b8c6548252f"
+        },
+        {
+          "slug": "arm-bot-photo-4",
+          "url": "https://iili.io/iARceS.jpg",
+          "_id": "64a318869bbc5b8c65482530"
+        },
+        {
+          "slug": "arm-bot-photo-5",
+          "url": "https://iili.io/iAR1I9.jpg",
+          "_id": "64a318869bbc5b8c65482531"
+        },
+        {
+          "slug": "arm-bot-photo-6",
+          "url": "https://iili.io/iAREXe.jpg",
+          "_id": "64a318869bbc5b8c65482532"
+        }
+      ],
+      "tech": [
+        {
+          "key": "arduino",
+          "name": "Arduino",
+          "url": "https://www.arduino.cc/",
+          "_id": "64a318869bbc5b8c65482533"
+        },
+        {
+          "key": "servo-motors",
+          "name": "Servo Motors",
+          "url": "https://en.wikipedia.org/wiki/Servomotor",
+          "_id": "64a318869bbc5b8c65482534"
+        },
+        {
+          "key": "3d-printing",
+          "name": "3D Printing",
+          "url": "https://en.wikipedia.org/wiki/3D_printing",
+          "_id": "64a318869bbc5b8c65482535"
+        },
+        {
+          "key": "laser-cutting",
+          "name": "Laser Cutting",
+          "url": "https://en.wikipedia.org/wiki/Laser_cutting",
+          "_id": "64a318869bbc5b8c65482536"
+        }
+      ],
+      "repos": [
+        {
+          "key": "youtube",
+          "name": "YouTube",
+          "url": "",
+          "_id": "64a318869bbc5b8c65482537"
+        },
+        {
+          "key": "github",
+          "name": "GitHub",
+          "url": "",
+          "_id": "64a318869bbc5b8c65482538"
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "date": {
+        "start_month": "",
+        "start_year": "",
+        "end_month": "",
+        "end_year": ""
+      },
+      "_id": "64a318979bbc5b8c654825bd",
+      "folder_id": "6493a4cc2a653801967ddf37",
+      "folder_name": "makerinchief",
+      "slug": "digit-display",
+      "name": "Digit Display",
+      "url": "",
+      "client": "",
+      "client_url": "",
+      "short": "A 7 segment WS2812b display",
+      "info": "The Digit Display is a fun LED project meant to be a great start to learn soldering and programming control of LEDs.  The LEDs can be programmed to display any single digit number and in a wide range of colors.  The displays can also be chained together to create larger displays.",
+      "photos": [
+        {
+          "slug": "digit-display-photo-1",
+          "url": "https://iili.io/iA5Jv2.png",
+          "_id": "64a3194f9bbc5b8c65482786"
+        },
+        {
+          "slug": "digit-display-photo-2",
+          "url": "https://iili.io/iA5HYl.png",
+          "_id": "64a3194f9bbc5b8c65482787"
+        },
+        {
+          "slug": "digit-display-photo-3",
+          "url": "https://iili.io/iA5924.png",
+          "_id": "64a3194f9bbc5b8c65482788"
+        },
+        {
+          "slug": "digit-display-photo-4",
+          "url": "https://iili.io/iARtQn.png",
+          "_id": "64a3194f9bbc5b8c65482789"
+        },
+        {
+          "slug": "digit-display-photo-5",
+          "url": "https://iili.io/iARbBs.png",
+          "_id": "64a3194f9bbc5b8c6548278a"
+        },
+        {
+          "slug": "digit-display-photo-6",
+          "url": "https://iili.io/iARp4f.png",
+          "_id": "64a3194f9bbc5b8c6548278b"
+        },
+        {
+          "slug": "digit-display-photo-7",
+          "url": "https://iili.io/iARmEG.png",
+          "_id": "64a3194f9bbc5b8c6548278c"
+        }
+      ],
+      "tech": [
+        {
+          "key": "arduino",
+          "name": "Arduino",
+          "url": "https://www.arduino.cc/",
+          "_id": "64a3194f9bbc5b8c6548278d"
+        },
+        {
+          "key": "pcb",
+          "name": "PCB",
+          "url": "https://en.wikipedia.org/wiki/Printed_circuit_board",
+          "_id": "64a3194f9bbc5b8c6548278e"
+        },
+        {
+          "key": "ws2812b",
+          "name": "WS2812B",
+          "url": "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf",
+          "_id": "64a3194f9bbc5b8c6548278f"
+        },
+        {
+          "key": "3d-printing",
+          "name": "3D Printing",
+          "url": "https://en.wikipedia.org/wiki/3D_printing",
+          "_id": "64a3194f9bbc5b8c65482790"
+        }
+      ],
+      "repos": [
+        {
+          "key": "youtube",
+          "name": "YouTube",
+          "url": "",
+          "_id": "64a3194f9bbc5b8c65482791"
+        },
+        {
+          "key": "github",
+          "name": "GitHub",
+          "url": "",
+          "_id": "64a3194f9bbc5b8c65482792"
+        }
+      ],
+      "__v": 0
+    }
+  ]
+}

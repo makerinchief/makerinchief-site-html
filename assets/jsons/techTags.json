@@ -1,0 +1,74 @@
+{
+  "arduino": {
+    "name": "Arduino",
+    "url": "https://www.arduino.cc/"
+  },
+  "raspberry-pi": {
+    "name": "Raspberry Pi",
+    "url": "https://www.raspberrypi.org/"
+  },
+  "python": {
+    "name": "Python",
+    "url": "https://www.python.org/"
+  },
+  "processing-ide": {
+    "name": "Processing IDE",
+    "url": "https://processing.org/"
+  },
+  "open-sound-control": {
+    "name": "Open Sound Control",
+    "url": "https://opensoundcontrol.stanford.edu/"
+  },
+  "artnet": {
+    "name": "ArtNet",
+    "url": "https://art-net.org.uk/"
+  },
+  "dmx": {
+    "name": "DMX",
+    "url": "https://en.wikipedia.org/wiki/DMX512"
+  },
+  "fusion-360": {
+    "name": "Fusion 360",
+    "url": "https://www.autodesk.com/products/fusion-360/overview"
+  },
+  "teensy": {
+    "name": "Teensy",
+    "url": "https://www.pjrc.com/teensy/"
+  },
+  "ws2812b": {
+    "name": "WS2812b",
+    "url": "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+  },
+  "midi": {
+    "name": "MIDI",
+    "url": "https://en.wikipedia.org/wiki/MIDI"
+  },
+  "nrf24l01": {
+    "name": "NRF24L01",
+    "url": "http://wiki.sunfounder.cc/index.php?title=NRF24L01_Wireless_Transceiver_Module"
+  },
+  "3d-printing": {
+    "name": "3D Prining",
+    "url": "https://en.wikipedia.org/wiki/3D_printing"
+  },
+  "laser-cutting": {
+    "name": "Laser Cutting",
+    "url": "https://en.wikipedia.org/wiki/Laser_cutting"
+  },
+  "l298n": {
+    "name": "L298N",
+    "url": "http://wiki.sunfounder.cc/index.php?title=Motor_Driver_Module-L298N"
+  },
+  "lcd": {
+    "name": "LCD",
+    "url": "http://wiki.sunfounder.cc/index.php?title=LCD1602_Module"
+  },
+  "servo-motors": {
+    "name": "Servo Motors",
+    "url": "https://en.wikipedia.org/wiki/Servomotor"
+  },
+  "pcb": {
+    "name": "PCB",
+    "url": "https://en.wikipedia.org/wiki/Printed_circuit_board"
+  }
+}
