@@ -1,5 +1,6 @@
 .info-container {
   border: 4px solid black;
+  height: 30vh;
   padding: 0.25rem;
   width: 48%;
   height: 100%;
@@ -7,6 +8,12 @@
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+}
+
+.info-name {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
 }
 
 .info-key {
