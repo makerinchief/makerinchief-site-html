@@ -1,17 +1,4 @@
-// const MODELS_URL = 'https://raw.githubusercontent.com/intern-jck/site-html/site-dev/assets/data/models.json';
-
-async function getModelType(type) {
-  try {
-    const response = await fetch(MODELS_URL);
-    const data = await response.json();
-    return data[type];
-  } catch (error) {
-    console.error(error);
-    return error;
-  }
-}
-
-async function addInfo(info, parentDiv) {
+async function addKitInfo(info, parentDiv) {
   console.log(info);
 
   // Create the container to add all info components
@@ -32,7 +19,7 @@ async function addInfo(info, parentDiv) {
   infoName.textContent = info.name;
   infoContainer.appendChild(infoName);
 
-  const 
+  // const
 
   // const techTagDiv = document.createElement("div");
   // techTagDiv.classList = "tech-tag-div";
