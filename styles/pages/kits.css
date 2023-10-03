@@ -24,3 +24,39 @@
   margin: auto;
   font-size: 2rem;
 }
+
+.kit-name {
+  text-align: center;
+}
+
+.kit-description {
+  margin: 1rem;
+}
+
+.kit-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 1rem;
+}
+
+.kit-tag {
+  border: 2px solid black;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-weight: bold;
+}
+
+.kit-repos {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 1rem;
+}
+
+.kit-repo {
+  border: 2px solid black;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-weight: bold;
+}
