@@ -38,6 +38,8 @@ const getKits = () => {
     .then((data) => {
       console.log(data.makerinchief);
       addCards(data.makerinchief, "kits-container", showKit);
+      // Use for testing
+      showKit(data.makerinchief[0]);
     })
     .catch((error) => console.log("fetching projects url", error));
 };
@@ -59,7 +61,7 @@ const showKit = (kit) => {
   addCarousel(photo_urls, kitDiv);
 
   // Info
-  addInfo(kit, kitDiv);
+  addKitInfo(kit, kitDiv);
 };
 
 window.addEventListener(
