@@ -1,8 +1,3 @@
-const PROJECTS_JSON_URL =
-  "https://raw.githubusercontent.com/intern-jck/site-html/site-dev/assets/data/projects.json";
-const WORK_JSON_URL =
-  "https://raw.githubusercontent.com/intern-jck/site-html/site-dev/assets/data/work.json";
-
 const KITS_JSON_URL = "../../assets/jsons/kitsData.json";
 
 // Helper function to clear all child elements from a parent div.
