@@ -48,17 +48,9 @@ a:hover {
   color: var(--active-color);
 }
 
-.page-content {
-  /* border: 4px solid blue; */
-  margin-top: 16vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
 .page-header {
-  /* border: 4px solid green; */
-  margin-bottom: 2rem;
+  border: 4px solid blue;
+  margin-top: 6rem;
   text-align: center;
 }
 
@@ -76,13 +68,14 @@ a:hover {
   font-size: 1.4rem;
 }
 
-/* .content {
-  border: 4px solid green;
+.page-content {
+  border: 4px solid blue;
+  margin-top: 2rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-} */
+}
 
 .home-img {
   border: 4px solid black;

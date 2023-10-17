@@ -34,7 +34,7 @@ const getKits = () => {
       console.log(data.makerinchief);
       addCards(data.makerinchief, "kits-container", showKit);
       // Use for testing
-      showKit(data.makerinchief[0]);
+      // showKit(data.makerinchief[0]);
     })
     .catch((error) => console.log("fetching projects url", error));
 };
