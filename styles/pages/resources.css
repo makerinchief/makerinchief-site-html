@@ -1,7 +1,6 @@
-.contact-links {
+#resources-container {
+  border: 4px solid red;
   margin: auto;
-  font-size: 1.4rem;
-  font-weight: bold;
   max-width: 80%;
   display: flex;
   flex-wrap: wrap;
@@ -10,9 +9,13 @@
   gap: 2rem;
 }
 
-.contact-links>a {
-  color: var(--icon-color);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.resource-link {
+  /* width: 10rem; */
+  /* height: 4rem; */
+  object-fit: contain;
+}
+
+.resource-image {
+  border: 2px solid black;
+  padding: 1rem;
 }

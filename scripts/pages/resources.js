@@ -20,22 +20,24 @@ const showResources = (resources) => {
     resourceDiv.classList = "resource-div";
 
     // const resourceName = document.createElement("h3");
-    const resourceInfo = document.createElement("p");
+    // const resourceInfo = document.createElement("p");
 
-    const resourceImageDiv = document.createElement("div");
+    // const resourceImageDiv = document.createElement("div");
     const resourceImage = document.createElement("img");
-    resourceImage.src = resource.photo;
-    resourceImageDiv.appendChild(resourceImage);
-
     resourceImage.classList = "resource-image";
+    resourceImage.src = resource.photo;
+    // resourceImageDiv.appendChild(resourceImage);
+
     const resourceLink = document.createElement("a");
-    resourceLink.textContent = resource.name;
+    resourceLink.classList = "resource-link";
+    // resourceLink.textContent = resource.name;
     resourceLink.href = resource.url;
     resourceLink.target = "_blank";
+    resourceLink.appendChild(resourceImage);
 
     resourceDiv.appendChild(resourceLink);
-    resourceDiv.appendChild(resourceImage);
-    resourceDiv.appendChild(resourceInfo);
+    // resourceDiv.appendChild(resourceImage);
+    // resourceDiv.appendChild(resourceInfo);
 
     resourcesContainer.append(resourceDiv);
   });
