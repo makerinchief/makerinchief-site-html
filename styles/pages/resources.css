@@ -11,12 +11,10 @@
 }
 
 .resource-div {
-  border: 2px solid red;
 }
 
 
 .resource-link {
-  border: 2px solid red;
   object-fit: contain;
 }
 
