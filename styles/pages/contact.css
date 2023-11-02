@@ -1,0 +1,38 @@
+.contact-img {
+  border: 4px solid black;
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-img img {
+  width: 98%;
+  height: 98%;
+  object-fit: contain;
+}
+
+.social-links {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  max-width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.social-links>a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 900px) {
+  
+
+}

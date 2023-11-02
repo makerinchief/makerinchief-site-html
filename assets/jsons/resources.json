@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Arduino",
+        "info": "The microcontroller which started it all!",
+        "photo": "https://iili.io/LuPbaI.png",
+        "url": "https://www.arduino.cc/"
+    },
+    {
+        "name": "Raspberry Pi",
+        "info": "A small but powerful computer!",
+        "photo": "https://iili.io/LuiHjs.png",
+        "url": "https://www.raspberrypi.org/"
+    },
+    {
+        "name": "Free Code Camp",
+        "info": "Learn programming for free!",
+        "photo": "https://iili.io/LuPD3N.png",
+        "url": "https://www.freecodecamp.org/"
+    },
+    {
+        "name": "Instructables",
+        "info": "Learn how to make just about anything!",
+        "photo": "https://iili.io/Lui9un.png",
+        "url": "https://www.freecodecamp.org/"
+    },
+    {
+        "name": "Tinkercad",
+        "info": "A free and simple 3D CAD program!",
+        "photo": "https://iili.io/LuPmvt.png",
+        "url": "https://www.tinkercad.com/"
+    },
+    {
+        "name": "Creality",
+        "info": "Makers of the popular Ender 3 open source 3D printer!",
+        "photo": "https://iili.io/LuPpyX.png",
+        "url": "https://www.creality.com/"
+    },
+    {
+        "name": "YouTube",
+        "info": "Search through hours and hours of videos from makers!",
+        "photo": "https://iili.io/LuPZ4p.png",
+        "url": "https://www.youtube.com/"
+    }
+]
