@@ -8,7 +8,6 @@ function addCarousel(images, parentDiv) {
   // Create carousel images and add to slides
   const carouselSlides = document.createElement("div");
   carouselSlides.classList = "carousel-slides";
-
   const slides = [];
 
   for (let i in images) {
@@ -27,7 +26,6 @@ function addCarousel(images, parentDiv) {
 
   const leftButton = document.createElement("button");
   leftButton.classList = "carousel-left-button";
-
   const leftIcon = document.createElement("i");
   leftIcon.classList = "fa-solid fa-caret-left";
   leftButton.append(leftIcon);
