@@ -15,7 +15,7 @@
       "url": "",
       "client": "",
       "client_url": "",
-      "short": "Four wheeled drive bot.",
+      "short": "All wheeled drive robot",
       "info": "The Tank Bot uses an Arduino Nano to control the 4 wheels via an L298N motor driver.  Parts are easy to come by and quick to setup.  3D printed connectors and wooden dowels make a strong structure.  Parts are 3D printed using recycled PLA and laser cut from cardboard and wooden dowels.",
       "photos": [
         {
@@ -112,7 +112,7 @@
       "url": "",
       "client": "",
       "client_url": "",
-      "short": "Two joystick controller",
+      "short": "Joystick radio controller",
       "info": "The Controller Bot uses two joystick modules to control your bot using an NRF24L01 radio module.  An 16x2 LCD screen displays any data you want.  Parts are 3D printed using recycled PLA and laser cut from cardboard and wooden dowels.",
       "photos": [
         {
@@ -209,7 +209,7 @@
       "url": "",
       "client": "",
       "client_url": "",
-      "short": "WS2812B RGB LED Lantern",
+      "short": "Programmable LED Lantern",
       "info": "The LED Lantern is laser cut from birch plywood and uses WS2812b LEDs to allow a wide range of colors.  Printer paper is used as a simple diffuser which also allows printing images on each side allowing for awesome visual effects!\"",
       "photos": [
         {
@@ -487,7 +487,7 @@
       "url": "",
       "client": "",
       "client_url": "",
-      "short": "A 7 segment WS2812b display",
+      "short": "7 segment LED display",
       "info": "The Digit Display is a fun LED project meant to be a great start to learn soldering and programming control of LEDs.  The LEDs can be programmed to display any single digit number and in a wide range of colors.  The displays can also be chained together to create larger displays.",
       "photos": [
         {

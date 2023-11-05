@@ -1,20 +1,20 @@
-function addCards(cards, div, clickHandler) {
+function addCards(root, cards, div, clickHandler) {
   const parentDiv = document.getElementById(div);
   clearDiv(parentDiv);
 
   const cardsContainer = document.createElement("div");
-  cardsContainer.classList = "cards-container";
+  cardsContainer.classList = root + "-cards-container";
 
   cards.forEach((card) => {
     const cardDiv = document.createElement("div");
-    cardDiv.classList = "card-div";
+    cardDiv.classList = root + "-card-div";
 
     const cardName = document.createElement("h2");
-    cardName.classList = "card-name";
+    cardName.classList = root + "-card-name";
     cardName.textContent = card.name;
 
     const cardImgDiv = document.createElement("div");
-    cardImgDiv.classList = "card-img";
+    cardImgDiv.classList = root + "-card-img";
     cardImgDiv.onclick = (event) => {
       event.preventDefault();
       clickHandler(card);
@@ -24,7 +24,7 @@ function addCards(cards, div, clickHandler) {
     cardImg.src = card.photos[0].url;
 
     const cardShort = document.createElement("h3");
-    cardShort.classList = "card-short";
+    cardShort.classList = root + "-card-short";
     cardShort.textContent = card.short;
 
     cardDiv.appendChild(cardName);
