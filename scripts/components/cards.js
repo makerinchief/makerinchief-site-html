@@ -1,37 +1,37 @@
-function addCards(root, cards, div, clickHandler) {
-  const parentDiv = document.getElementById(div);
+function addCards(root = "root", cardsData, parentId, clickHandler) {
+  const parentDiv = document.getElementById(parentId);
   clearDiv(parentDiv);
 
   const cardsContainer = document.createElement("div");
   cardsContainer.classList = root + "-cards-container";
 
-  cards.forEach((card) => {
-    const cardDiv = document.createElement("div");
-    cardDiv.classList = root + "-card-div";
+  cardsData.forEach((cardInfo) => {
+    const card = document.createElement("button");
+    card.classList = root + "-card";
+    card.onclick = (event) => {
+      event.preventDefault();
+      clickHandler(cardInfo);
+    };
 
-    const cardName = document.createElement("h2");
+    const cardName = document.createElement("span");
     cardName.classList = root + "-card-name";
-    cardName.textContent = card.name;
+    cardName.textContent = cardInfo.name;
 
     const cardImgDiv = document.createElement("div");
     cardImgDiv.classList = root + "-card-img";
-    cardImgDiv.onclick = (event) => {
-      event.preventDefault();
-      clickHandler(card);
-    };
 
     const cardImg = document.createElement("img");
-    cardImg.src = card.photos[0].url;
+    cardImg.src = cardInfo.photos[0].url;
 
-    const cardShort = document.createElement("h3");
+    const cardShort = document.createElement("span");
     cardShort.classList = root + "-card-short";
-    cardShort.textContent = card.short;
+    cardShort.textContent = cardInfo.short;
 
-    cardDiv.appendChild(cardName);
+    card.appendChild(cardName);
     cardImgDiv.appendChild(cardImg);
-    cardDiv.appendChild(cardImgDiv);
-    cardDiv.appendChild(cardShort);
-    cardsContainer.appendChild(cardDiv);
+    card.appendChild(cardImgDiv);
+    card.appendChild(cardShort);
+    cardsContainer.appendChild(card);
   });
 
   parentDiv.appendChild(cardsContainer);
