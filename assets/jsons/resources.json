@@ -1,44 +1,44 @@
 [
     {
         "name": "Arduino",
-        "info": "The microcontroller which started it all!",
-        "photo": "https://iili.io/LuPbaI.png",
+        "short": "The microcontroller which started it all!",
+        "image": "https://iili.io/LuPbaI.png",
         "url": "https://www.arduino.cc/"
     },
     {
         "name": "Raspberry Pi",
-        "info": "A small but powerful computer!",
-        "photo": "https://iili.io/LuiHjs.png",
+        "short": "A small but powerful computer!",
+        "image": "https://iili.io/LuiHjs.png",
         "url": "https://www.raspberrypi.org/"
     },
     {
         "name": "Free Code Camp",
-        "info": "Learn programming for free!",
-        "photo": "https://iili.io/LuPD3N.png",
+        "short": "Learn programming for free!",
+        "image": "https://iili.io/LuPD3N.png",
         "url": "https://www.freecodecamp.org/"
     },
     {
         "name": "Instructables",
-        "info": "Learn how to make just about anything!",
-        "photo": "https://iili.io/Lui9un.png",
-        "url": "https://www.freecodecamp.org/"
+        "short": "Learn how to make just about anything!",
+        "image": "https://iili.io/Lui9un.png",
+        "url": "https://www.instructables.com/"
     },
     {
         "name": "Tinkercad",
-        "info": "A free and simple 3D CAD program!",
-        "photo": "https://iili.io/LuPmvt.png",
+        "short": "A free and simple 3D CAD program!",
+        "image": "https://iili.io/LuPmvt.png",
         "url": "https://www.tinkercad.com/"
     },
     {
         "name": "Creality",
-        "info": "Makers of the popular Ender 3 open source 3D printer!",
-        "photo": "https://iili.io/LuPpyX.png",
+        "short": "Makers of the Ender 3 3D printer!",
+        "image": "https://iili.io/LuPpyX.png",
         "url": "https://www.creality.com/"
     },
     {
         "name": "YouTube",
-        "info": "Search through hours and hours of videos from makers!",
-        "photo": "https://iili.io/LuPZ4p.png",
+        "short": "The best place for videos on making!",
+        "image": "https://iili.io/LuPZ4p.png",
         "url": "https://www.youtube.com/"
     }
 ]

@@ -64,11 +64,11 @@ a:hover {
 }
 
 .page-header > h1 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .page-header > h2 {
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 .page-content {
@@ -89,11 +89,12 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .home-img {
   border: 4px solid black;
+  margin-top: 4rem;
   width: 20rem;
   height: 20rem;
   display: flex;
@@ -109,11 +110,11 @@ a:hover {
 
 footer {
   /* border: 2px solid black; */
+  /* justify-content: center; */
   margin-top: 4rem;
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -128,6 +129,7 @@ footer .social-links {
   .page-content {
     margin-top: 16vh;
   }
+
   .home-img {
     width: 20rem;
     height: 20rem;
@@ -138,6 +140,7 @@ footer .social-links {
   .page-content {
     margin-top: 20vh;
   }
+  
   .home-img {
     width: 20rem;
     height: 20rem;

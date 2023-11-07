@@ -1,4 +1,4 @@
-const KITS_JSON_URL = "../../assets/jsons/kitsData.json";
+const KITS_JSON_URL = "../../assets/jsons/kits.json";
 
 // Helper function to clear all child elements from a parent div.
 const clearDiv = (parent) => {
