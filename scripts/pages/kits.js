@@ -28,10 +28,10 @@ function getKits() {
       return response.json();
     })
     .then((data) => {
-      showKits(data.makerinchief);
+      // showKits(data.makerinchief);
 
       // Use for testing/styling
-      // showKit(data.makerinchief[0]);
+      showKit(data.makerinchief[0]);
     })
     .catch((error) => console.log('fetching projects url', error));
 }
@@ -68,7 +68,7 @@ function showKit(kit) {
   addBackButton('kits-container', getKits);
 
   const kitDiv = document.createElement('div');
-  kitDiv.setAttribute('class', 'kit-div');
+  kitDiv.setAttribute('id', 'kit-div');
 
   kitContainer.append(kitDiv);
 

@@ -2,32 +2,32 @@ let currentSlide = 0;
 
 function addCarousel(images, parentDiv) {
   // Container div for carousel slides and controls
-  const carouselContainer = document.createElement("div");
-  carouselContainer.classList = "carousel-container";
+  const carouselContainer = document.createElement('div');
+  carouselContainer.classList = 'carousel-container';
 
   // Create carousel images and add to slides
-  const carouselSlides = document.createElement("div");
-  carouselSlides.classList = "carousel-slides";
+  const carouselSlides = document.createElement('div');
+  carouselSlides.classList = 'carousel-slides';
   const slides = [];
 
   for (let i in images) {
-    const carouselImageContainer = document.createElement("div");
-    carouselImageContainer.classList = "carousel-img";
-    const carouselImage = document.createElement("img");
+    const carouselImageDiv = document.createElement('div');
+    carouselImageDiv.classList = 'carousel-image-div';
+    const carouselImage = document.createElement('img');
     carouselImage.src = images[i];
-    carouselImageContainer.appendChild(carouselImage);
-    carouselSlides.appendChild(carouselImageContainer);
-    slides.push(carouselImageContainer);
+    carouselImageDiv.appendChild(carouselImage);
+    carouselSlides.appendChild(carouselImageDiv);
+    slides.push(carouselImageDiv);
   }
 
   // Create slide control buttons
-  const carounselControls = document.createElement("div");
-  carounselControls.classList = "carousel-controls";
+  const carounselControls = document.createElement('div');
+  carounselControls.classList = 'carousel-controls';
 
-  const leftButton = document.createElement("button");
-  leftButton.classList = "carousel-left-button";
-  const leftIcon = document.createElement("i");
-  leftIcon.classList = "fa-solid fa-caret-left";
+  const leftButton = document.createElement('button');
+  leftButton.classList = 'carousel-left-button';
+  const leftIcon = document.createElement('i');
+  leftIcon.classList = 'fa-solid fa-caret-left';
   leftButton.append(leftIcon);
   leftButton.onclick = (event) => {
     if (currentSlide > 0) {
@@ -36,11 +36,10 @@ function addCarousel(images, parentDiv) {
     showSlide(slides, currentSlide);
   };
 
-  const rightButton = document.createElement("button");
-  rightButton.classList = "carousel-right-button";
-  
-  const rightIcon = document.createElement("i");
-  rightIcon.classList = "fa-solid fa-caret-right";
+  const rightButton = document.createElement('button');
+  rightButton.classList = 'carousel-right-button';
+  const rightIcon = document.createElement('i');
+  rightIcon.classList = 'fa-solid fa-caret-right';
   rightButton.append(rightIcon);
   rightButton.onclick = (event) => {
     if (currentSlide < slides.length - 1) {
@@ -50,9 +49,9 @@ function addCarousel(images, parentDiv) {
   };
 
   // Add everything
+  carouselContainer.appendChild(carouselSlides);
   carounselControls.appendChild(leftButton);
   carounselControls.appendChild(rightButton);
-  carouselContainer.appendChild(carouselSlides);
   carouselContainer.appendChild(carounselControls);
   parentDiv.appendChild(carouselContainer);
 
