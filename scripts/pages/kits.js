@@ -1,60 +1,76 @@
-const KITS_JSON_URL = "../../assets/jsons/kits.json";
+const KITS_JSON_URL = '../../assets/jsons/kits.json';
 
-// Helper function to clear all child elements from a parent div.
-const clearDiv = (parent) => {
-  while (parent.firstChild) {
-    parent.removeChild(parent.firstChild);
-  }
-};
+function addBackButton(parentId, clickHandler) {
+  const parentDiv = document.getElementById(parentId);
 
-// Adds a back button when kit is shown to allow user to
-// go back to kits list.
-const addBackButton = (parentDiv) => {
-  const backButton = document.createElement("button");
-  backButton.textContent = "BACK";
-  backButton.classList = "back-button";
+  const backButton = document.createElement('button');
+  backButton.setAttribute('id', 'back-button');
+  backButton.classList = 'back-button';
+  backButton.textContent = 'BACK';
 
   backButton.onclick = (event) => {
-    getKits();
+    event.preventDefault();
+    clickHandler();
   };
 
   parentDiv.appendChild(backButton);
-};
+}
 
-// Remove the back button when showing the kits list.
-const removeBackButton = () => {
-  if (document.getElementById("back-button")) {
-    document.getElementById("back-button").remove();
+function removeBackButton() {
+  if (document.getElementById('back-button')) {
+    document.getElementById('back-button').remove();
   }
-};
+}
 
-// Gets the current kitsData.json and creates a card for
-// each kit.
-const getKits = () => {
+function getKits() {
   fetch(KITS_JSON_URL)
     .then((response) => {
       return response.json();
     })
     .then((data) => {
-      // from /scripts/cards.js
-      addCards("kits-container", data.makerinchief, "kits-container", showKit);
+      showKits(data.makerinchief);
 
       // Use for testing/styling
       // showKit(data.makerinchief[0]);
     })
-    .catch((error) => console.log("fetching projects url", error));
-};
+    .catch((error) => console.log('fetching projects url', error));
+}
+
+function showKits(kitsData) {
+  clearDiv('kits-container');
+
+  const kitsContainer = document.getElementById('kits-container');
+
+  const kitsListDiv = document.createElement('div');
+  kitsListDiv.setAttribute('id', 'kits-list');
+
+  kitsContainer.appendChild(kitsListDiv);
+
+  kitsData.map((kit) => {
+    createCardButton(
+      'kits-list',
+      kit.photos[0].url,
+      kit.name,
+      kit.short,
+      () => {
+        console.log('clicked!!');
+        showKit(kit);
+      }
+    );
+  });
+}
 
 // Shows the info and media for the kit being clicked.
-const showKit = (kit) => {
-  const kitsContainer = document.getElementById("kits-container");
-  clearDiv(kitsContainer);
-  addBackButton(kitsContainer);
+function showKit(kit) {
+  clearDiv('kits-container');
+  const kitContainer = document.getElementById('kits-container');
 
-  const kitDiv = document.createElement("div");
-  kitDiv.setAttribute("class", "kit-div");
+  addBackButton('kits-container', getKits);
 
-  kitsContainer.append(kitDiv);
+  const kitDiv = document.createElement('div');
+  kitDiv.setAttribute('class', 'kit-div');
+
+  kitContainer.append(kitDiv);
 
   // Carousel
   let photo_urls = [];
@@ -67,11 +83,11 @@ const showKit = (kit) => {
 
   // from /scripts/kitInfo.js
   addKitInfo(kit, kitDiv);
-};
+}
 
 // Get the kits when the page loads.
 window.addEventListener(
-  "load",
+  'load',
   function (event) {
     getKits();
   },
