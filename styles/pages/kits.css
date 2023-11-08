@@ -116,7 +116,7 @@
 }
 
 #kit-div .carousel-controls {
-  z-index: 99;
+  z-index: 2;
   top: 45%;
   position: absolute;
   width: 100%;
@@ -181,8 +181,6 @@
 #kit-div .info-repos {
   margin-top: 2rem;
   display: flex;
-  /* flex-wrap: wrap; */
-  /* align-content: flex-start; */
   justify-content: center;
   gap: 4rem;
 }
@@ -190,16 +188,6 @@
 #kit-div .info-repos i {
   font-size: 4rem;
 }
-
-/* #kit-div .info-repo {
-  border: 2px solid black;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
-  font-size: 3rem;
-  font-weight: bold;
-} */
 
 @media screen and (max-width: 900px) {
   #kit-div {

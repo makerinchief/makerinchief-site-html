@@ -42,6 +42,7 @@
 @media screen and (max-width: 900px) {
   #navbar {
     flex-direction: column;
+    height: auto;
   }
 
   #nav-ham {
@@ -54,15 +55,10 @@
 
   #nav-menu.active {
     width: 100%;
+    max-height: 80vh;
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-}
-
-@media screen and (orientation: landscape) {
-  #nav-menu.active {
-    /* border: 2px solid red; */
-    /* height: 100%; */
   }
 }
