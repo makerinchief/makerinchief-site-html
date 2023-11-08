@@ -61,7 +61,7 @@ function showKits(kitsData) {
 }
 
 // Shows the info and media for the kit being clicked.
-function showKit(kit) {
+function showKit(kitData) {
   clearDiv('kits-container');
   const kitContainer = document.getElementById('kits-container');
 
@@ -74,7 +74,7 @@ function showKit(kit) {
 
   // Carousel
   let photo_urls = [];
-  kit.photos.forEach((photo) => {
+  kitData.photos.forEach((photo) => {
     photo_urls.push(photo.url);
   });
 
@@ -82,7 +82,7 @@ function showKit(kit) {
   addCarousel(photo_urls, kitDiv);
 
   // from /scripts/kitInfo.js
-  addKitInfo(kit, kitDiv);
+  addInfo(kitData, kitDiv);
 }
 
 // Get the kits when the page loads.
