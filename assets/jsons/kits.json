@@ -85,7 +85,7 @@
         {
           "key": "github",
           "name": "Github",
-          "url": "https://github.com/intern-jck/Tank-Bot",
+          "url": "https://github.com/makerinchief/tank-bot",
           "_id": "6493a67c2a653801967ddff6"
         },
         {
@@ -182,13 +182,13 @@
         {
           "key": "github",
           "name": "Github",
-          "url": "#",
+          "url": "https://github.com/makerinchief/controller-bot",
           "_id": "6493a70c2a653801967de0ea"
         },
         {
           "key": "youtube",
           "name": "YouTube",
-          "url": "#",
+          "url": "https://youtu.be/Yi5at-WUJjM?si=ASEnr2wM6Pqi1c08",
           "_id": "6493a70c2a653801967de0eb"
         }
       ],
@@ -204,13 +204,13 @@
       "_id": "64a3166d9bbc5b8c65481e5b",
       "folder_id": "6493a4cc2a653801967ddf37",
       "folder_name": "makerinchief",
-      "slug": "led-lantern",
-      "name": "Led Lantern",
+      "slug": "lantern-bot",
+      "name": "Lantern Bot",
       "url": "",
       "client": "",
       "client_url": "",
       "short": "Programmable LED Lantern",
-      "info": "The LED Lantern is laser cut from birch plywood and uses WS2812b LEDs to allow a wide range of colors.  Printer paper is used as a simple diffuser which also allows printing images on each side allowing for awesome visual effects!\"",
+      "info": "The Lantern Bot is laser cut from birch plywood and uses WS2812b LEDs to allow a wide range of colors.  Printer paper is used as a simple diffuser which also allows printing images on each side allowing for awesome visual effects!\"",
       "photos": [
         {
           "slug": "led-lantern-photo-7",
@@ -256,12 +256,6 @@
           "_id": "64a317959bbc5b8c65482073"
         },
         {
-          "key": "nrf24l01",
-          "name": "NRF24L01",
-          "url": "http://wiki.sunfounder.cc/index.php?title=NRF24L01_Wireless_Transceiver_Module",
-          "_id": "64a317959bbc5b8c65482074"
-        },
-        {
           "key": "ws2812b",
           "name": "WS2812B",
           "url": "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf",
@@ -278,13 +272,13 @@
         {
           "key": "youtube",
           "name": "YouTube",
-          "url": "",
+          "url": "#",
           "_id": "64a317959bbc5b8c65482077"
         },
         {
           "key": "github",
           "name": "GitHub",
-          "url": "",
+          "url": "https://github.com/makerinchief/lantern-bot",
           "_id": "64a317959bbc5b8c65482078"
         }
       ],
@@ -369,13 +363,13 @@
         {
           "key": "youtube",
           "name": "YouTube",
-          "url": "",
+          "url": "https://youtu.be/bh1NH_DHzKw?si=naIMksleXnbODarz",
           "_id": "64a318119bbc5b8c654822ab"
         },
         {
           "key": "github",
           "name": "GitHub",
-          "url": "",
+          "url": "https://github.com/makerinchief/doggo-bot",
           "_id": "64a318119bbc5b8c654822ac"
         }
       ],
@@ -460,13 +454,13 @@
         {
           "key": "youtube",
           "name": "YouTube",
-          "url": "",
+          "url": "https://youtu.be/qDbNxWiZUss?si=Fw4P8E4wCAMqIH6O",
           "_id": "64a318869bbc5b8c65482537"
         },
         {
           "key": "github",
           "name": "GitHub",
-          "url": "",
+          "url": "https://github.com/makerinchief/arm-bot",
           "_id": "64a318869bbc5b8c65482538"
         }
       ],
@@ -556,13 +550,13 @@
         {
           "key": "youtube",
           "name": "YouTube",
-          "url": "",
+          "url": "https://youtu.be/Z_5Tqm7yOdM?si=i1_-8O4b6Hguu0h9",
           "_id": "64a3194f9bbc5b8c65482791"
         },
         {
           "key": "github",
           "name": "GitHub",
-          "url": "",
+          "url": "https://github.com/makerinchief/digit-display",
           "_id": "64a3194f9bbc5b8c65482792"
         }
       ],
