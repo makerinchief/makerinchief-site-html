@@ -13,8 +13,12 @@
   font-size: 2rem;
 }
 
-/* KITS LIST*/
+.back-button:hover {
+  background-color: var(--active-color);
+  scale: 116%;
+}
 
+/* KITS LIST*/
 #kits-list {
   display: flex;
   flex-wrap: wrap;
@@ -25,12 +29,18 @@
 
 #kits-list .card {
   border: 4px solid black;
+  background-color: white;
   font-weight: bold;
   border-radius: 0.4rem;
   padding: 0.5rem;
   width: 24rem;
   display: grid;
   grid-template-rows: repeat(8, 3rem);
+}
+
+#kits-list .card:hover {
+  color: var(--active-color);
+  scale: 104%;
 }
 
 #kits-list .card-header {
@@ -134,7 +144,6 @@
 }
 
 /* KIT INFO */
-
 #kit-div .info-container {
   border: 4px solid black;
   padding: 1rem;
@@ -178,6 +187,10 @@
   font-weight: bold;
 }
 
+#kit-div .info-tag:hover {
+  background-color: var(--active-color);
+}
+
 #kit-div .info-repos {
   margin-top: 2rem;
   display: flex;
@@ -187,6 +200,11 @@
 
 #kit-div .info-repos i {
   font-size: 4rem;
+}
+
+#kit-div .info-repos i:hover {
+  font-size: 4rem;
+  color: var(--active-color);
 }
 
 @media screen and (max-width: 900px) {

@@ -4,7 +4,7 @@
   --background-color: white;
   --primary-color: darkblue;
   --secondary-color: darkgreen;
-  --active-color: rgb(4, 107, 190);
+  --active-color: rgb(0, 0, 255);
   --icon-color: black;
 }
 
@@ -29,6 +29,7 @@ button {
   border: none;
   background: none;
   font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 
 button > svg {
@@ -37,16 +38,13 @@ button > svg {
 
 button:hover {
   cursor: pointer;
-  color: var(--active-color);
+  /* color: var(--active-color); */
+  /* background-color: var(--active-color); */
 }
 
 a {
   color: var(--font-color);
   text-decoration: none;
-}
-
-a:hover {
-  color: var(--active-color);
 }
 
 .page-header {
