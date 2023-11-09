@@ -21,14 +21,14 @@ html {
 body {
   margin: 0;
   font-size: 100%;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   background-color: var(--background-color);
 }
 
 button {
   border: none;
   background: none;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 button > svg {
@@ -140,7 +140,7 @@ footer .social-links {
   .page-content {
     margin-top: 20vh;
   }
-  
+
   .home-img {
     width: 20rem;
     height: 20rem;
