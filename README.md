@@ -2,7 +2,10 @@
 
 Makerinchief Website
 
-TODO:
+This is the codebase for
 
-- style nav on landscape to ensure full height
-- make nav scrollable if overflowed
+www.makerinchief.com
+
+Site is hosted on GitHub Pages and uses a custom domain for convience.
+
+The site is built using HTML, CSS and JavaScript.
