@@ -6,6 +6,7 @@ const getResources = () => {
       return response.json();
     })
     .then((data) => {
+      console.log(data);
       showResources(data);
     })
     .catch((error) => console.log('fetching projects url', error));
