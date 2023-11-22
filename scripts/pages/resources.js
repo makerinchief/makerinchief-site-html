@@ -1,4 +1,4 @@
-const RESOURCES_JSON_URL = '../../assets/jsons/resources.json';
+const RESOURCES_JSON_URL = 'https://raw.githubusercontent.com/makerinchief/jsons/main/resources.json';
 
 const getResources = () => {
   fetch(RESOURCES_JSON_URL)
@@ -13,13 +13,7 @@ const getResources = () => {
 
 const showResources = (resourcesData) => {
   resourcesData.map((resource) => {
-    createCardAnchor(
-      'resources-list',
-      resource.image,
-      resource.name,
-      resource.short,
-      resource.url
-    );
+    createCardAnchor('resources-list', resource.image, resource.name, resource.short, resource.url);
   });
 };
 
