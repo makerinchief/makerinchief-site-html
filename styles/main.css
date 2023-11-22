@@ -1,11 +1,11 @@
 :root {
-  --anchor-color: blue;
-  --font-color: black;
-  --background-color: white;
   --primary-color: darkblue;
   --secondary-color: darkgreen;
-  --active-color: rgb(0, 0, 255);
+  --background-color: white;
+  --font-color: black;
+  --anchor-color: blue;
   --icon-color: black;
+  --active-color: blue;
 }
 
 html {
@@ -38,13 +38,15 @@ button > svg {
 
 button:hover {
   cursor: pointer;
-  /* color: var(--active-color); */
-  /* background-color: var(--active-color); */
 }
 
 a {
   color: var(--font-color);
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--active-color);
 }
 
 .page-header {
