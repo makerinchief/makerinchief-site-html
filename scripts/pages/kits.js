@@ -1,4 +1,4 @@
-const KITS_JSON_URL = '../../assets/jsons/kits.json';
+const KITS_JSON_URL = 'https://raw.githubusercontent.com/makerinchief/jsons/main/kits_data.json';
 
 function addBackButton(parentId, clickHandler) {
   const parentDiv = document.getElementById(parentId);
@@ -47,16 +47,10 @@ function showKits(kitsData) {
   kitsContainer.appendChild(kitsListDiv);
 
   kitsData.map((kit) => {
-    createCardButton(
-      'kits-list',
-      kit.photos[0].url,
-      kit.name,
-      kit.short,
-      () => {
-        console.log('clicked!!');
-        showKit(kit);
-      }
-    );
+    createCardButton('kits-list', kit.photos[0].url, kit.name, kit.short, () => {
+      console.log('clicked!!');
+      showKit(kit);
+    });
   });
 }
 
