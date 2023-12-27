@@ -1,6 +1,6 @@
-let currentSlide = 0;
-
 function addCarousel(images, parentDiv) {
+  let currentSlide = 0;
+
   // Container div for carousel slides and controls
   const carouselContainer = document.createElement('div');
   carouselContainer.classList = 'carousel-container';
